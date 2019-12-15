@@ -44,6 +44,7 @@ public class AvroController {
 		u.setFavoriteColor("blue");
 		u.setName("ni");
 		u.setFavoriteNumber(null);
+		u.setAddress(null);
 		//testit();
 	String b=null;
 	try {

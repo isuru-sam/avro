@@ -75,6 +75,13 @@
       <configuration>
         <sourceDirectory>${project.basedir}/src/main/avro/</sourceDirectory>
         <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
+         <includes>
+         <include>**/*.avsc</include>
+     </includes>
+     <imports>
+              <import>${project.basedir}/src/main/avro/test1.avsc</import>
+            <!--   <import>${project.basedir}/src/main/avro/search_result_type.avro</import>-->
+     </imports>
       </configuration>
     </execution>
   </executions>
